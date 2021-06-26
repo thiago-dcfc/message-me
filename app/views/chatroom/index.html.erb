@@ -1,0 +1,42 @@
+<h2 class="ui center aligned medium icon header">
+  <i class="blue circular users icon"></i>
+  Chatroom
+</h2>
+
+<div class="ui grid">
+  <div class="twelve wide column">
+    <div class="ui fluid raised card chatbox">
+      <div class="content" id="messages">
+        <div class="ui feed" id="message-container">
+          <% if @messages.any? %>
+            <%= render @messages %>
+          <% end %>
+        </div>
+      </div>
+      <div class="extra content">
+        <%= form_for(@message, html: { class: 'ui reply form', role: 'form' }, url: message_path, remote: true) do |f| %>
+          <div class="ui fluid action input">
+            <%= f.text_field :body, placeholder: 'Type your message...' %>
+            <%= f.button '<i class="paper plane icon"></i>'.html_safe, class: 'ui button green' %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="four wide column">
+    <div class="ui fluid raised card chatbox">
+      <div class="content">
+        <div class="ui middle aligned selection list">
+          <div class="item">
+            <i class="user circle icon"></i>
+            <div class="content">
+              <div class="header">Helen</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

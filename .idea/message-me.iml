@@ -40,6 +40,7 @@
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.7.0, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="archive-zip (v0.12.0, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v9.0.0, rbenv: 2.6.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.16, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.7.5, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.4, rbenv: 2.6.7) [gem]" level="application" />
@@ -60,6 +61,7 @@
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.10, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-like (v0.3.1, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.2, rbenv: 2.6.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.4.0, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.1.5, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.10.0, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, rbenv: 2.6.7) [gem]" level="application" />
@@ -90,7 +92,9 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.7.4, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-listen (v4.0.0, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.1.0, rbenv: 2.6.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sassc (v2.4.0, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.142.7, rbenv: 2.6.7) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="semantic-ui-sass (v2.4.4.0, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.1.1, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, rbenv: 2.6.7) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.2, rbenv: 2.6.7) [gem]" level="application" />
@@ -110,5 +114,59 @@
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
     <I18N_FOLDERS number="1" string0="$MODULE_DIR$/config/locales" />
+  </component>
+  <component name="RailsGeneratorsCache">
+    <option name="generators">
+      <list>
+        <option value="active_record:application_record" />
+        <option value="application_record" />
+        <option value="assets" />
+        <option value="channel" />
+        <option value="coffee:assets" />
+        <option value="controller" />
+        <option value="generator" />
+        <option value="helper" />
+        <option value="integration_test" />
+        <option value="jbuilder" />
+        <option value="job" />
+        <option value="js:assets" />
+        <option value="mailer" />
+        <option value="migration" />
+        <option value="model" />
+        <option value="resource" />
+        <option value="scaffold" />
+        <option value="scaffold_controller" />
+        <option value="system_test" />
+        <option value="task" />
+        <option value="test_unit:generator" />
+        <option value="test_unit:plugin" />
+      </list>
+    </option>
+    <option name="myGenerators">
+      <list>
+        <option value="active_record:application_record" />
+        <option value="application_record" />
+        <option value="assets" />
+        <option value="channel" />
+        <option value="coffee:assets" />
+        <option value="controller" />
+        <option value="generator" />
+        <option value="helper" />
+        <option value="integration_test" />
+        <option value="jbuilder" />
+        <option value="job" />
+        <option value="js:assets" />
+        <option value="mailer" />
+        <option value="migration" />
+        <option value="model" />
+        <option value="resource" />
+        <option value="scaffold" />
+        <option value="scaffold_controller" />
+        <option value="system_test" />
+        <option value="task" />
+        <option value="test_unit:generator" />
+        <option value="test_unit:plugin" />
+      </list>
+    </option>
   </component>
 </module>
